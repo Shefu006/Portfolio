@@ -1,0 +1,423 @@
+*{
+    border: 0;
+    padding: 0;
+    margin: 0;
+}
+body{
+    overflow-x: hidden;
+    background-color: black;
+}
+body > div{
+    display: flex;
+    flex-direction: row;
+    overflow-y: hidden;
+}
+nav{
+    width: 110px;
+    background-color: rgb(34,34,34);
+    height: 100vh;
+    position: fixed;
+    top: 0;
+}
+
+nav a{
+    display: inline;
+    text-decoration: none;
+}
+nav a p{
+   
+    width: 110px;
+    height: 80px;
+    text-align: center;
+    padding-top: 30px;
+    color: white;
+    text-transform: uppercase;
+    
+}
+nav img{
+    width: 110px;
+    height: 110px;
+    border-radius: 50%;
+}
+
+nav a p:hover{
+    background-color: rgb(145, 144, 144);
+    color: black;
+}
+
+.maindiv #home{
+    width: 100vw;
+    height: 850px;
+    background-color: grey;
+    /* display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: flex-start; */
+    
+}
+
+.maindiv #home .infodiv{
+    width: 80%;
+    height: 600px;
+    /* border: 2px solid black; */
+    margin-left: 190px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.info{
+    width: 500px;
+    /* border: 2px solid black; */
+}
+
+.info h2{
+    font-family: 'Montserrat', sans-serif;
+    margin-top: 50px;
+    font-size: 40px;
+}
+
+.info p{
+    margin-top: 30px;
+    font-family: 'Montserrat, sans-serif' ;
+    font-size: 18px;
+}
+
+.maindiv #home img{
+    height: 400px;
+    width: 400px;
+    border-radius: 50%;
+    float: right;
+    margin-right: 70px;
+    margin-top: 30px;
+    border: 2px solid black;
+}
+
+.maindiv #home img:hover{
+    scale: 1.02;   
+}
+
+.maindiv #home h1{
+    font-size:  80px;
+    font-family: 'Montserrat', sans-serif;
+    padding-top: 80px;
+    text-align: center;
+    color: white;
+}
+.maindiv #home pre{
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    margin-top: 30px;
+    text-align: center;
+    font-size: 30px;
+}
+
+#about{
+    
+    width: 100vw;
+    height: 1400px;
+    background-color: grey;
+    /* border: 2px solid black ; */
+
+    
+}
+
+.content{
+    /* width: 1200px; */
+    /* height: 750px; */
+    /* border: 2px solid black; */
+    margin-left: 190px;
+    padding-top: 100px;
+}
+
+#contact{
+    width: 100vw;
+    height: 1100px;
+    background-color:grey;
+}
+#about .content h2{
+    font-family:'Montserrat', sans-serif;
+}
+
+#about p{
+    font-size: 20px;
+    font-family: 'Montserrat', sans-serif;
+}
+#about .content .barmain{
+    width: 90%;
+    height: 35px;
+    background-color: white;
+    margin-top: 20px;
+}
+#about .content .barmain .bar1{
+    width: 80%;
+    height: 35px;
+    background-color: rgb(63, 63, 63);
+}
+#about .content .barmain .bar2{
+    width: 70%;
+    height: 35px;
+    background-color: rgb(63, 63, 63);
+}
+#about .content .barmain .bar3{
+    width: 60%;
+    height: 35px;
+    background-color: rgb(63, 63, 63);
+}
+#about .projects{
+    display: flex;
+    background-color: white;
+    margin-left: 190px;
+    width: 900px;
+    height: 120px;
+    margin-top: 100px;
+}
+#about .projects .space{ 
+    height: 100px;
+    width: 25%;
+    padding: 50px 0px 0px 70px;
+    background-color: rgb(247, 245, 245);
+    /* border: 2px solid black; */
+}
+#about .projects{
+    width: 45%;
+}
+#about .projects .space pre{
+    text-transform: uppercase;
+    font-size: large;   
+}
+#about button{
+    width: 170px;
+    height: 40px;
+    margin-left: 190px;
+    margin-top: 50px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+}
+.repu{
+    margin-left: 190px;
+    margin-top: 4rem;
+    /* border: 2px solid black ; */
+
+}
+.repu h2{
+    color: rgb(22, 22, 22);
+    font-family: 'Montserrat', sans-serif;
+}
+.repu img{
+    height: 100px;
+    
+    width: 100px;
+    /* border: 2px solid black; */
+    margin-top: 35px;
+    border-radius: 50%;
+}
+.innerrepu1 , .innerrepu2{
+    /* border: 2px solid black;  */
+    display: flex;
+    flex-direction: row;
+    margin-top: 10px;
+}
+.repu1text {
+    /* border: 2px solid black ;  */
+    margin-left: 10px;
+    margin-top: 60px;
+
+}
+.repu2text{
+    margin-left: 10px;
+    margin-top: 80px;
+}
+.repu p{
+    width: 400px;
+    font-size: 20px !important;
+    /* border: 2px solid black; */
+
+}
+#contact .innerdiv{
+    margin-left: 190px;
+    width: 70vw;
+    height: 600px;
+    padding-top: 50px;
+    /* border: 2px solid rgb(228, 0, 0); */
+}
+#contact .innerdiv h2{
+    font-size: 30px;
+    font-family: 'Montserrat', sans-serif;
+}
+.infocontact .in{
+    display: flex;
+    margin-top: 20px;
+}
+.infocontact p{
+    margin-left: 20px;
+}
+.infocontact i{
+    font-size: 30px;
+}
+#contact .innerdiv > p{
+ font-family: 'Montserrat', sans-serif;
+ margin-top: 50px;
+ font-size: 20px;
+}
+form{
+    margin-top: 20px;
+}
+#name, #email, #message{
+    font-size: 20px;
+    font-family: 'Montserrat', sans-serif;
+    height: 70px;
+    width: 100%;
+    border: 1px solid black;
+}
+button{
+    font-size: 20px;
+    font-family: 'Montserrat', sans-serif;
+    height: 50px;
+    width: 200px;
+    border: 1px solid black;
+    margin-top: 20px;
+}
+form input{
+    padding-left: 35px;
+    border-radius: 5px;
+}
+.links{
+    margin-top: 250px;
+    /* border: 2px solid black; */
+    height: 50px;
+    /* text-align: center */
+
+    
+}
+.links a{
+    color: black;
+    font-size: 30px;
+    margin-left: 10px;
+    
+}
+ 
+
+  @media (max-width:1200px){
+    .infodiv{
+        flex-direction: column-reverse;
+        margin-top: 200px;
+        align-items: center;
+    }
+    .info{
+        width: 90%;
+    }
+    #about{
+        padding-top: 200px;
+    }
+  }
+
+
+  @media (max-width:900px){
+    .maindiv #home h1{
+        font-size: 60px;
+    }
+    .maindiv #home pre{
+        font-size:20px
+    }
+    .maindiv #home .infodiv .info p {
+        font-size: 20px;
+    }
+    #about .content h2{
+        font-size: 30px;
+    }
+    #about .content .barmain .projects{ 
+        align-items: center;
+        
+    }
+    #about .content .barmain ,
+    .bar1{
+        
+    }
+
+  }
+
+@media (max-width:800px) {
+    .maindiv #home h1{
+        font-size: 40px;
+    }
+    .maindiv #home pre{
+        font-size: 15px;
+    }
+    #name, #email, #message{
+        width: 80%;
+    }
+    nav{
+        width: 100vw;
+        background-color: rgb(34,34,34);
+        height: 110px;
+        position: fixed;
+        display: flex;
+        justify-content: space-between;
+        top: 0;
+    }
+    nav .nav{
+        display: flex;
+        gap: 50px;
+    }
+    .content{
+        
+        margin-left: 50px;
+        padding-top: 70px;
+    }
+    .maindiv #home .infodiv{
+        width: 80%;
+        height: 600px;
+        /* border: 2px solid black; */
+        margin-left: 50px;
+        display: flex;
+        justify-content: space-between;
+    }
+    .maindiv #home h1, pre{
+        margin-top: 30px;
+
+    }
+    .maindiv #home img{
+        height: 300px;
+        width: 300px;
+        border-radius: 50%;
+        float: right;
+        margin-right: 20px;
+        margin-top: px;
+        border: 2px solid black;
+    }
+    #about .projects{
+        display: flex;
+        background-color: white;
+        margin-left: 50px;
+        width: 900px;
+        height: 120px;
+        margin-top: 100px;
+    }
+    #about .projects .space{ 
+        height: 100px;
+        width: 10%;
+        padding: 50px 0px 0px 70px;
+        background-color: rgb(247, 245, 245);
+        /* border: 2px solid black; */
+    }
+    #about button{
+        width: 170px;
+        height: 40px;
+        margin-left: 50px;
+        margin-top: 50px;
+        font-family: 'Montserrat', sans-serif;
+        font-size: 14px;
+    }
+    .repu{
+        margin-left: 50px;
+    }
+    #contact .innerdiv{
+        margin-left: 50px;
+        /* border: 2px solid rgb(228, 0, 0); */
+    }
+    #contact{
+        padding-top: 60x;
+    }
+}    
+
+
